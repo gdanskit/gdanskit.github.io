@@ -1,4 +1,5 @@
 window.onload = () => {
+  console.log('brama');
   setInterval(() => {
     const refreshBtns = document.querySelectorAll("button.refreshNow");
     // Wykonanie clicka na kaĹźdym pobranym przycisku
