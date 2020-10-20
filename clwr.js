@@ -10,9 +10,8 @@ const pickCovidInfo_PL = "ReportSection7441e49f704a0b24e85a";
 const pickCovidInfo_UA = "ReportSection89185ba5c51b6b8b80ea";
 
 const shipmentsReports =
-  "https://app.powerbi.com/groups/me/reports/ff580e87-f9d2-410a-8f68-ee28593b93ab/";
+  "https://app.powerbi.com/groups/me/reports/8538cb68-2992-4f66-8883-da340cd48cb3";
 const shipmentsMG = "ReportSection";
-const shipmentsCH = "ReportSectionc3dd0d18cd4c8a636250";
 const shipmentCovidInfo_PL = "ReportSection6fd1415e2068042d3b28";
 const shipmentCovidInfo_UA = "ReportSection6392120b100130bec981";
 
