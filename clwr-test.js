@@ -134,6 +134,7 @@ if (
 } else if (window.location.href.includes(fsSection)) {
   setTimeout(() => {
     const tab = document.querySelectorAll("div[role=tab]");
+    console.log('git');
 
     setInterval(() => {
       tab[3].click();
