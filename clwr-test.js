@@ -134,13 +134,12 @@ if (
 } else if (window.location.href.includes(fsSection)) {
   setTimeout(() => {
     const tab = document.querySelectorAll("div[role=tab]");
-    console.log('git');
 
     setInterval(() => {
-      tab[3].click();
       document.querySelector("button.refresh").click();
-      // Cały cykl się powtarza co 90 sekund
-    }, 90000);
+      console.log('refresh');
+      // Cały cykl się powtarza co 60 sekund
+    }, 60000);
     // Po 5 sekundach od wejścia pierwszy raz na stronę
   }, 5000);
 } else if (window.location.href.includes(akcSection)) {
