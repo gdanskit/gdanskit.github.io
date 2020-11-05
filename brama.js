@@ -3,4 +3,4 @@ setInterval(() => {
     for (let i = 0; i < 4; i++) {
         refreshBtns[i].click();
 }
-}, 30000);
+}, 300000);
