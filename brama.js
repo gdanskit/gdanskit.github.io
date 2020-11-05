@@ -4,4 +4,4 @@
     for(let i = 0; i <= 6; i+=2) {
         refreshBtns[i].click();
     }
-  }, 30000);
+  }, 300000);
