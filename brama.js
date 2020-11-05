@@ -1,9 +1,6 @@
-
-  setInterval(() => {
-    const refreshBtns = document.querySelectorAll('button.quick-action-button.ng-star-inserted');
-    setTimeout(() => {
-    refreshBtns[0].click();
-    refreshBtns[2].click();
-    refreshBtns[4].click();
-    refreshBtns[6].click();}, 5000)
-  }, 300000);
+setInterval(() => {
+    const refreshBtns = document.querySelectorAll('button.actionPanelButton.refreshButton.mat-focus-indicator.mat-button.mat-button-base.ng-star-inserted')
+    for (let i = 0; i < 4; i++) {
+        refreshBtns[i].click();
+}
+}, 30000);
