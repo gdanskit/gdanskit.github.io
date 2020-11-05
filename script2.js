@@ -96,11 +96,11 @@ setInterval(() => {
 if (window.location.href.includes(foodSection1) || window.location.href.includes(foodSection2)) {
     setTimeout(() => {
         // Pobranie wszystkich zakładek 
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
         setInterval(() => {
             // Kliknięcie pierwszej zakładki
             tab[0].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
                 tab[1].click();
@@ -123,11 +123,11 @@ if (window.location.href.includes(foodSection1) || window.location.href.includes
 } else if (window.location.href === shipmentsReports + shipmentsMG || window.location.href.includes(shipmentCovidInfo_PL) || window.location.href.includes(shipmentCovidInfo_UA)) {
     setTimeout(() => {
         // Pobranie wszystkich zakładek 
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
         setInterval(() => {
             // Kliknięcie pierwszej zakładki
             tab[0].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
                 tab[7].click();
@@ -145,12 +145,12 @@ if (window.location.href.includes(foodSection1) || window.location.href.includes
 } else if (window.location.href.includes(fsSection)) {
 
     setTimeout(() => {
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
 
         setInterval(() => {
 
             tab[5].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
 
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
@@ -168,11 +168,11 @@ if (window.location.href.includes(foodSection1) || window.location.href.includes
     }, 5000);
 } else if (window.location.href.includes(akcSection)) {
     setTimeout(() => {
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
         setInterval(() => {
 
             tab[2].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
 
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
@@ -192,11 +192,11 @@ if (window.location.href.includes(foodSection1) || window.location.href.includes
     //Chłodnia 
 } else if (window.location.href.includes(chSection)) {
     setTimeout(() => {
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
         setInterval(() => {
 
             tab[3].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
 
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
@@ -216,11 +216,11 @@ if (window.location.href.includes(foodSection1) || window.location.href.includes
     //Mroźnia
 } else if (window.location.href.includes(mrSection)) {
     setTimeout(() => {
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
         setInterval(() => {
 
             tab[4].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
 
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
@@ -238,11 +238,11 @@ if (window.location.href.includes(foodSection1) || window.location.href.includes
     }, 5000);
 } else if (window.location.href.includes(embarkationReport)) {
     setTimeout(() => {
-        const tab = document.querySelectorAll('div[role=tab]');
+        const tab = document.querySelectorAll('div.itemRow.pbi-focus-outline');
         setInterval(() => {
 
             tab[0].click();
-            document.querySelector('button.refresh').click();
+            document.querySelector('button#reportAppBarRefreshBtn').click();
 
             setTimeout(() => {
                 // Kliknięcie drugiej zakładki
