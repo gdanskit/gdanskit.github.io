@@ -1,9 +1,7 @@
-console.log('brama');
+
   setInterval(() => {
-    const refreshBtns = document.querySelectorAll("button.refreshNow");
-    // Wykonanie clicka na kaĹźdym pobranym przycisku
-    for (const refreshBtn of refreshBtns) {
-      refreshBtn.click();
+    const refreshBtns = document.querySelectorAll('button.quick-action-button.ng-star-inserted');
+    for(let i = 0; i <= 6; i+=2) {
+        refreshBtns[i].click();
     }
-    // Co 5 minut
-  }, 300000);
+  }, 30000);
