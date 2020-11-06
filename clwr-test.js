@@ -7,7 +7,7 @@ const fsSection = "ReportSection84c9ccb8aff1a90475c5";
 
 const shipmentsReports =
   "https://app.powerbi.com/groups/me/reports/8538cb68-2992-4f66-8883-da340cd48cb3/";
-const shipmentsMG = "ReportSection";
+const shipmentsMG = "ReportSection3a36623f6ea27584e358";
 
 const checkTime = () => {
   const currentHour = new Date().getHours();
