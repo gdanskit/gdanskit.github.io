@@ -15,7 +15,7 @@ const checkTime = () => {
 };
 
 setInterval(() => {
-  if (checkTime() >= 6 && checkTime() <= 14) {
+  if (checkTime() >= 6 && checkTime() <= 13) {
     if (config.shipmentsMG) {
       if (
         window.location.href === shipmentsReports + shipmentsMG 
@@ -27,7 +27,7 @@ setInterval(() => {
     }
   }
 
-  if (checkTime() >= 15 || checkTime() <= 5) {
+  if (checkTime() >= 14 || checkTime() <= 5) {
     if (config.food) {
       if (
         window.location.href.includes(foodSection1) ||
