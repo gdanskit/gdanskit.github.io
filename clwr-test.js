@@ -85,11 +85,7 @@ if (
   window.location.href === shipmentsReports + shipmentsMG 
 ) {
   setTimeout(() => {
-    // Pobranie wszystkich zakładek
-    const tab = document.querySelectorAll("div.itemRow.pbi-focus-outline");
     setInterval(() => {
-      // Kliknięcie pierwszej zakładki
-      tab[0].click();
       document.querySelector("button#reportAppBarRefreshBtn").click();
       // Cały cykl się powtarza co 60 sekund
     }, 90000);
