@@ -28,8 +28,9 @@ const checkTime = () => {
 };
 
 const isLogged = () => {
+    
+    const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
     if (window.location.href.includes("login.microsoftonline.com")) {
-        const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
         console.log(loginBtn);
         setTimeout(() => {
             loginBtn[0].click();
