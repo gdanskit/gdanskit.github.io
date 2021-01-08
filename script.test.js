@@ -28,7 +28,7 @@ const checkTime = () => {
 };
 
 const isLogged = () => {
-    if (window.location.href.includes(login.microsoftonline.com)) {
+    if (window.location.href.includes("login.microsoftonline.com")) {
         console.log("dupa123");
     }
 }
