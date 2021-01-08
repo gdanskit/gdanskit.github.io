@@ -29,7 +29,10 @@ const checkTime = () => {
 
 const isLogged = () => {
     if (window.location.href.includes("login.microsoftonline.com")) {
-        console.log("dupa123");
+        const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
+        setTimeout(() => {
+            loginBtn.click();
+        }, 5000)
     }
 }
 
