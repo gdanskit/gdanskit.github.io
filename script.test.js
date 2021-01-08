@@ -29,11 +29,14 @@ const checkTime = () => {
 
 const isLogged = () => {
     
-    const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
     if (window.location.href.includes("login.microsoftonline.com")) {
-        console.log(loginBtn);
         setTimeout(() => {
+            const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
             loginBtn[0].click();
+            setTimeout(() => {
+                const passBtn = document.querySelector("#idSIButton9");
+                passBtn.click();
+            }, 10000)
         }, 5000)
     }
 }
