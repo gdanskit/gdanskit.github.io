@@ -30,6 +30,7 @@ const checkTime = () => {
 const isLogged = () => {
     if (window.location.href.includes("login.microsoftonline.com")) {
         const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
+        console.log(loginBtn);
         setTimeout(() => {
             loginBtn[0].click();
         }, 5000)
