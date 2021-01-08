@@ -31,7 +31,7 @@ const isLogged = () => {
     if (window.location.href.includes("login.microsoftonline.com")) {
         const loginBtn = document.querySelectorAll(".table-cell.text-left.content");
         setTimeout(() => {
-            loginBtn.click();
+            loginBtn[0].click();
         }, 5000)
     }
 }
