@@ -142,7 +142,7 @@ if (
         // Co 30 sekund
       }, 30000);
       // Cały cykl się powtarza co 60 sekund
-    }, 120000);
+    }, 60000);
     // Po 5 sekundach od wejścia pierwszy raz na stronę
   }, 5000);
 } else if (
