@@ -130,8 +130,7 @@ if (
 ) {
   setTimeout(() => {
     // Pobranie wszystkich zakładek
-    [00:13] Kociak Michał
-    const tab = document.querySelectorAll(".itemRow.pbi-focus-outline")
+      const tab = document.querySelectorAll(".itemRow.pbi-focus-outline")
     setInterval(() => {
       // Kliknięcie pierwszej zakładki
       tab[0].click();
