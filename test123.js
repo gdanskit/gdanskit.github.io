@@ -1,5 +1,4 @@
-const pickReports =
-  "https://app.powerbi.com/groups/me/reports/88ade1c7-00b6-444f-bcec-e63291fbecb1/";
+const pickReports = "https://app.powerbi.com/groups/me/reports/88ade1c7-00b6-444f-bcec-e63291fbecb1/";
 const foodSection1 = "ReportSectione895c1142160cc56ce23";
 const foodSection2 = "ReportSection13788903743ec64ca747";
 const akcSection = "ReportSection7817c8af9e009298779b";
@@ -9,14 +8,12 @@ const fsSection = "ReportSection84c9ccb8aff1a90475c5";
 const pickCovidInfo_PL = "ReportSection7441e49f704a0b24e85a";
 const pickCovidInfo_UA = "ReportSection89185ba5c51b6b8b80ea";
 
-const shipmentsReports =
-  "https://app.powerbi.com/groups/me/reports/8538cb68-2992-4f66-8883-da340cd48cb3/";
-const shipmentsMG = "ReportSection";
+const shipmentsReports = "https://app.powerbi.com/groups/me/reports/76a3d701-9159-41b1-b175-3574f805cd41/";
+const shipmentsMG = "ReportSection3a36623f6ea27584e358";
 const shipmentCovidInfo_PL = "ReportSection6fd1415e2068042d3b28";
 const shipmentCovidInfo_UA = "ReportSection6392120b100130bec981";
 
-const shippingsReports =
-  "https://app.powerbi.com/groups/me/reports/76a3d701-9159-41b1-b175-3574f805cd41/";
+const shippingsReports = "https://app.powerbi.com/groups/me/reports/76a3d701-9159-41b1-b175-3574f805cd41/";
 const embarkationReport = "ReportSection3a36623f6ea27584e358";
 const shippingsCovidInfo_PL = "ReportSection15702083ade0c20401dd";
 const shippingsCovidInfo_UA = "ReportSectione42e65caa621347242e2";
