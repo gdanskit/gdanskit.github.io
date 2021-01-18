@@ -134,7 +134,7 @@ if (
     setInterval(() => {
       // Kliknięcie pierwszej zakładki
       tab[0].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
         tab[1].click();
@@ -165,7 +165,7 @@ if (
     setInterval(() => {
       // Kliknięcie pierwszej zakładki
       tab[0].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
         tab[7].click();
@@ -186,7 +186,7 @@ if (
 
     setInterval(() => {
       tab[5].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
 
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
@@ -207,7 +207,7 @@ if (
     const tab = document.querySelectorAll("div[role=tab]");
     setInterval(() => {
       tab[2].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
 
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
@@ -230,7 +230,7 @@ if (
     const tab = document.querySelectorAll("div[role=tab]");
     setInterval(() => {
       tab[3].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
 
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
@@ -253,7 +253,7 @@ if (
     const tab = document.querySelectorAll("div[role=tab]");
     setInterval(() => {
       tab[4].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
 
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
@@ -274,7 +274,7 @@ if (
     const tab = document.querySelectorAll("div[role=tab]");
     setInterval(() => {
       tab[0].click();
-      document.querySelector("button#reportAppBarRefreshBtn").click()
+      document.querySelector("button#reportAppBarRefreshBtn").click();
 
       setTimeout(() => {
         // Kliknięcie drugiej zakładki
