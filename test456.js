@@ -51,6 +51,7 @@ setInterval(() => {
   }
 
   if (checkTime() >= 15 || checkTime() <= 5) {
+    console.log("dupa");
     if (config.food) {
       if (
         window.location.href.includes(foodSection1) ||
