@@ -130,7 +130,8 @@ if (
 ) {
   setTimeout(() => {
     // Pobranie wszystkich zakładek
-    const tab = document.querySelectorAll("div[role=tab]");
+    [00:13] Kociak Michał
+    const tab = document.querySelectorAll(".itemRow.pbi-focus-outline")
     setInterval(() => {
       // Kliknięcie pierwszej zakładki
       tab[0].click();
@@ -140,16 +141,6 @@ if (
         tab[1].click();
         // Co 30 sekund
       }, 30000);
-      setTimeout(() => {
-        // Kliknięcie drugiej zakładki
-        tab[7].click();
-        // Co 30 sekund
-      }, 60000);
-      setTimeout(() => {
-        // Kliknięcie drugiej zakładki
-        tab[8].click();
-        // Co 30 sekund
-      }, 90000);
       // Cały cykl się powtarza co 60 sekund
     }, 120000);
     // Po 5 sekundach od wejścia pierwszy raz na stronę
