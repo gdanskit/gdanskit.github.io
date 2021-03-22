@@ -1,7 +1,7 @@
 window.onload = () => {
     setTimeout(() => {
         const playSound = () => {
-            const audio = new Audio('https://zabkapowerbi.ct8.pl/beep.mp3');
+            const audio = new Audio('sound.mp3');
             audio.play();
         }
 
