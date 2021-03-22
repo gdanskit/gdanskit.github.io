@@ -5,6 +5,7 @@ window.onload = () => {
             audio.play();
         }
 
+        
         const createBtn = document.querySelector('#create_link');
         const assigneColumn = document.querySelector('.headerrow-assignee');
         const dontDisplayAssignee = false;
