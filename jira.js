@@ -1,7 +1,7 @@
 window.onload = () => {
     setTimeout(() => {
         const playSound = () => {
-            const audio = new Audio('./sound.mp3');
+            const audio = new Audio('https://gdanskit.github.io/sound.mp3');
             audio.play();
         }
 
