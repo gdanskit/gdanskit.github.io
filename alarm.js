@@ -1,7 +1,7 @@
 window.onload = () => {
     setTimeout(() => {
         const playSound = () => {
-            const audio = new Audio('https://gdanskit.github.io/alarm.mp3');
+            const audio = new Audio('https://gdanskit.github.io/bells.wav');
             audio.play();
         }
 
