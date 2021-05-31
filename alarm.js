@@ -2,7 +2,7 @@ window.onload = () => {
     setTimeout(() => {
         const playSound = () => {
             const audio = new Audio('https://gdanskit.github.io/bells.wav');
-            for (let i = 0; i >3; i++) {
+            for (let i = 0; i < 3; i++) {
             audio.play();
             }
         }
