@@ -209,7 +209,6 @@ if (
   setTimeout(() => {
     const tab = document.querySelectorAll("div.itemRow.pbi-focus-outline");
     setInterval(() => {
-      tab[3].click();
       document.querySelector("button#reportAppBarRefreshBtn").click();
 
       // Cały cykl się powtarza co 90 sekund
