@@ -1,4 +1,5 @@
-top-bar.ng-star-inserted, app-navigation-pane.fluent-theme, exploration-fluent-navigation.newLookPageNav ng-star-inserted, 
-navigation-pane.navigationPaneV2.isCollapsed.ng-star-inserted {
+top-bar.ng-star-inserted, app-navigation-pane.fluent-theme, exploration-fluent-navigation.newLookPageNav.ng-star-inserted, 
+navigation-pane.navigationPaneV2.isCollapsed.ng-star-inserted.
+section.appBar.ng-star-inserted{
   display: none;
 }
