@@ -1,5 +1,9 @@
-top-bar.ng-star-inserted, app-navigation-pane.fluent-theme, exploration-fluent-navigation, 
+top-bar.ng-star-inserted, app-navigation-pane.fluent-theme,  
 navigation-pane.navigationPaneV2.isCollapsed.ng-star-inserted.
 section.appBar.ng-star-inserted{
+  display: none;
+}
+
+exploration-fluent-navigation {
   display: none;
 }
