@@ -1,10 +1,12 @@
-const pickReports = "https://app.powerbi.com/groups/me/reports/88ade1c7-00b6-444f-bcec-e63291fbecb1/";
+const pickReports =
+"https://app.powerbi.com/groups/me/reports/88ade1c7-00b6-444f-bcec-e63291fbecb1/";
 const foodSection1 = "ReportSectione895c1142160cc56ce23";
 const foodSection2 = "ReportSection13788903743ec64ca747";
 const akcSection = "ReportSection7817c8af9e009298779b";
 const fsSection = "ReportSection84c9ccb8aff1a90475c5";
 
-const shipmentsReports = "https://app.powerbi.com/groups/me/reports/76a3d701-9159-41b1-b175-3574f805cd41/";
+const shipmentsReports =
+  "https://app.powerbi.com/groups/me/reports/76a3d701-9159-41b1-b175-3574f805cd41/";
 const shipmentsMG = "ReportSection3a36623f6ea27584e358";
 
 const checkTime = () => {
@@ -12,25 +14,28 @@ const checkTime = () => {
   return currentHour;
 };
 
+
+window.onload = isLogged();
+
 setInterval(() => {
-  if (checkTime() >= 6 && checkTime() <= 13) {
+  if (checkTime() >= 6 && checkTime() <= 14) {
     if (config.shipmentsMG) {
       if (
-        window.location.href === shipmentsReports + shipmentsMG 
+        window.location.href === shipmentsReports + shipmentsMG
       ) {
         return;
       } else {
         window.location = shipmentsReports + shipmentsMG;
       }
     }
+
   }
 
-  if (checkTime() >= 14 || checkTime() <= 5) {
+  if (checkTime() >= 15 || checkTime() <= 5) {
     if (config.food) {
       if (
         window.location.href.includes(foodSection1) ||
-        window.location.href.includes(foodSection2) 
-      ) {
+        window.location.href.includes(foodSection2)
         return;
       } else {
         window.location = pickReports + foodSection1;
@@ -39,7 +44,7 @@ setInterval(() => {
 
     if (config.fs) {
       if (
-        window.location.href.includes(fsSection) 
+        window.location.href.includes(fsSection)
       ) {
         return;
       } else {
@@ -49,15 +54,17 @@ setInterval(() => {
 
     if (config.akc) {
       if (
-        window.location.href.includes(akcSection) 
+        window.location.href.includes(akcSection)
       ) {
         return;
       } else {
         window.location = pickReports + akcSection;
       }
     }
-  }
-}, 60000);
+
+      }
+    
+   
 
 if (
   window.location.href.includes(foodSection1) ||
@@ -80,13 +87,17 @@ if (
     // Po 5 sekundach od wejścia pierwszy raz na stronę
   }, 5000);
 } else if (
-  window.location.href === shipmentsReports + shipmentsMG 
+  window.location.href === shipmentsReports + shipmentsMG
 ) {
   setTimeout(() => {
+    // Pobranie wszystkich zakładek
+    const tab = document.querySelectorAll("div.itemRow.pbi-focus-outline");
     setInterval(() => {
+      // Kliknięcie pierwszej zakładki
+      tab[0].click();
       document.querySelector("button#reportAppBarRefreshBtn").click();
       // Cały cykl się powtarza co 60 sekund
-    }, 90000);
+    }, 60000);
     // Po 5 sekundach od wejścia pierwszy raz na stronę
   }, 5000);
 } else if (window.location.href.includes(fsSection)) {
@@ -94,11 +105,11 @@ if (
     const tab = document.querySelectorAll("div.itemRow.pbi-focus-outline");
 
     setInterval(() => {
-      tab[3].click();
+      tab[5].click();
       document.querySelector("button#reportAppBarRefreshBtn").click();
 
       // Cały cykl się powtarza co 90 sekund
-    }, 90000);
+    }, 60000);
     // Po 5 sekundach od wejścia pierwszy raz na stronę
   }, 5000);
 } else if (window.location.href.includes(akcSection)) {
@@ -107,9 +118,7 @@ if (
     setInterval(() => {
       tab[2].click();
       document.querySelector("button#reportAppBarRefreshBtn").click();
-
       // Cały cykl się powtarza co 90 sekund
-    }, 90000);
+    }, 60000);
     // Po 5 sekundach od wejścia pierwszy raz na stronę
   }, 5000);
-}
